@@ -14,7 +14,8 @@ app = FastAPI(
 origins = [
     "http://localhost:5173",
     "http://127.0.0.1:5173",
-    "https://vaultify-production-4579.up.railway.app",
+    "https://vaultify-mindmates.vercel.app",
+    "https://vaultify-git-main-mindmates.vercel.app",
 ]
 
 app.add_middleware(
