@@ -8,6 +8,11 @@ import { Github } from "lucide-react";
 import { Link } from "react-router-dom";
 import { Button, buttonVariants } from "@/components/ui/button";
 import { Badge } from "./ui/badge";
+import favicon from "@/assets/favicon.svg";
+import javascriptIcon from "@/assets/javascript.svg";
+import pythonIcon from "@/assets/python.svg";
+import fastapiIcon from "@/assets/FastAPI.svg";
+import postgresqlIcon from "@/assets/postgresql.svg";
 
 const Hero = () => {
   const handleGitHubClick = () => {
@@ -31,7 +36,7 @@ const Hero = () => {
         <div className="mx-auto flex max-w-5xl flex-col items-center">
           <div className="flex flex-col items-center gap-6 text-center">
             <div className="rounded-xl bg-background/30 p-4 shadow-sm backdrop-blur-sm">
-              <img src="/src/assets/favicon.svg" alt="logo" className="h-16" />
+              <img src={favicon} alt="logo" className="h-16" />
             </div>
             <div>
               <h1 className="mb-6 text-2xl font-bold tracking-tight text-pretty lg:text-5xl">
@@ -107,7 +112,7 @@ const Hero = () => {
                         "group flex aspect-square h-12 items-center justify-center p-0"
                       )}>
                       <img
-                        src="/src/assets/javascript.svg"
+                        src={javascriptIcon}
                         alt="TypeScript logo"
                         className="h-6 saturate-0 transition-all group-hover:saturate-100"
                       />
@@ -170,7 +175,7 @@ const Hero = () => {
                         "group flex aspect-square h-12 items-center justify-center p-0"
                       )}>
                       <img
-                        src="/src/assets/python.svg"
+                        src={pythonIcon}
                         alt="Python logo"
                         className="h-6 saturate-0 transition-all group-hover:saturate-100"
                       />
@@ -191,7 +196,7 @@ const Hero = () => {
                         "group flex aspect-square h-12 items-center justify-center p-0"
                       )}>
                       <img
-                        src="/src/assets/FastAPI.svg"
+                        src={fastapiIcon}
                         alt="FastAPI logo"
                         className="h-6 saturate-0 transition-all group-hover:saturate-100"
                       />
@@ -212,7 +217,7 @@ const Hero = () => {
                         "group flex aspect-square h-12 items-center justify-center p-0"
                       )}>
                       <img
-                        src="/src/assets/postgresql.svg"
+                        src={postgresqlIcon}
                         alt="PostgreSQL logo"
                         className="h-6 saturate-0 transition-all group-hover:saturate-100"
                       />
