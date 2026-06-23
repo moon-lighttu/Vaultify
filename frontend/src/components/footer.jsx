@@ -33,7 +33,7 @@ const defaultSections = [
 const defaultSocialLinks = [
   {
     icon: <FaEnvelope className="size-5" />,
-    href: "mailto:ali.shanawer.2004@gmail.com",
+    href: "mailto:shekhawatriya11@gmail.com",
     label: "Email",
   },
   {
